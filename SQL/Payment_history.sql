@@ -1,5 +1,9 @@
 -- The goal for this code is to creat a file that show all history payments from all customers.
 
+--if its your firstime working with this database I would really recomending you to chech the schema first. By this way you can understand what kind of table you have and which table you need to star to working on
+
+SELECT * FROM INFORMATION_SCHEMA.COLUMNS
+
 --First lets us take all the customers id, name, age, income, city_housing to see the profile of our customers
 
 --select cust_id, name, age, income, city_housing from Customers
